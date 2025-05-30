@@ -1,7 +1,7 @@
 {
   "home": {
-    "welcomeText": "Vibe Coding: Building Sites and Apps using Low-Code AI App Builders",
-    "description": "A hands-on workshop to help you quickly build and deploy AI-powered applications without extensive coding."
+    "welcomeText": "AI Tools for Small Businesses Sales: Prospecting, Research, & Outreach",
+    "description": "A hands-on workshop to unlock practical AI tools and techniques for small business and non-profits."
   },
   "apiKeys": [
     {
@@ -13,52 +13,44 @@
   "promptExamples": [
     {
       "id": "system-prompt-1",
-      "label": "Product Manager Prompt",
-      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Product Manager.\nGoal: Create a simple and functional site or web app.  \nTask: Using the description below, create a set of requirements my coding assistant can use to create this web app. Keep the app as simple as possible while still achieving our goal. \n\nDescription: \n[A short description of the site including functionality, fields, and any other requirements]"
+      "label": "Analysis Prompt",
+      "content": "Role: You are a highly experienced Sales Analyst with deep expertise in identifying trends and uncovering strategic growth opportunities from sales data.\n\nGoal: Identify sales growth opportunities for Cadence Cycle Co. \n\nContext:\nCadence Cycle Co. is a manufacture of bicycle accessories. The attached spreadsheet contains their full order history, with the following columns:\n- Order number\n- Company ID\n- Company Name\n- Order Date\n- Total Order Amount\n\nTask: \nAnalyze the data in the attached spreadsheet and answer this questions: Year-over-Year Growth: Of the customers that had revenue in 2024, identify the top 5 customers in terms of the highest year over-year-growth."
     },
     {
       "id": "system-prompt-2",
-      "label": "Software Developer Prompt",
-      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Software Developer\nGoal: Create a simple and functional site or web app.\nTask: Create a web app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. \n\nRequirements:\n[Paste requirements here]"
+      "label": "Research Prompt",
+      "content": "Role: You are a highly experienced Sales Analyst for Cadence Cycle Co., a manufacture of bicycle accessories. You specializing in researching high-profile executive research that drives sales strategy. \n\nGoal: Support the sales team in generating more revenue by providing customer research that will help with outreach.\n\nCustomer: David Progar, Senior Vice President of Merchandising at Dicks Sporting Goods\n\nSuggested Sources:\n- LinkedIn profile and posts\n- SEC filings / earnings-call transcripts (past 8 quarters)\n- Press releases (company + personal quotes)\n- Major industry / trade publications\n- Podcasts, YouTube interviews, webinars (use transcript snippets)\n- Local business journals, conference agendas, award bios\n- Any additional reputable source that adds color or confirms a point\n\nTask: Conduct research on the customer above and create a customer profile with the following sections. Each section should be <100 words:\n- Professional Background –a short summary of work history\n- Current Strategic Priorities – a short summary of initiatives in the last 18 months\n- Key Business Challenges / Pain Points\n- Personal Interests & Hobbies – if available\n- Communication Style & Preferences – inferred from interviews, social posts, or speaking gigs\n- Outreach Recommendations: A short summary (<75 words) of key insights to guide personalized outreach. Include past business they have done.\n\nQuality & Reliability:\n- Be strategic. Don’t just list facts.\n- Corroborate any critical fact with ≥ 2 sources when available.\n- Flag contradictory information.\n- Note confidence level (High / Medium / Low) at the end of each section.\n- If certain details are unavailable, indicate that clearly."
+    },
+    {
+      "id": "outreach-prompt",
+      "label": "Outreach Prompt",
+      "content": "Role: You are a seasoned marketing executive for Cadence Cycle Co., a manufacturer of bicycle accessories.\n\nGoal: Craft three concise, high-impact sales outreach emails to secure a sales meeting with a high-level prospect, David Progar, Senior Vice President of Merchandising at Dicks Sporting Goods.\n\nContext:\nThe purpose of the meeting is to:\n- Understand the merchandising team’s current priorities.\n- Explore how Cadence Cycle Co. can deepen its partnership with Dick’s Sporting Goods.\n- Reference prior business between the two companies to establish credibility.\n\nTask:\n1. Review the “Outreach Recommendations” section below.\n2. Write three short, distinct email drafts that:\n    - Reflect Progar’s tone and communication style.\n    - Connect to Dick’s strategic initiatives (e.g., youth sports, community engagement, in-store innovation).\n    - Position Cadence as a strategic, collaborative partner.\n    - End with a clear, low-friction call to action to meet.\n\nOutreach Recommendations:\n[Paste the Outreach Recommendations here]"
     }
   ],
-  "deckUrl": "https://docs.google.com/presentation/d/1ERS1h2rPKux4oOpTuCKhk0n0m5Luyryw9ar1ZnIoTak/edit?usp=sharing",
+  "deckUrl": "https://docs.google.com/presentation/d/1JdKFahe6vf_utrW3v-XNVNR5nrazSNE-6CMrW00CBZQ/edit?usp=sharing",
   "instructionsPage": {
     "title": "Instructions",
     "instructions": [
-      "Setup",
-      "     a) Go to www.replit.com",
-      "     b) Create a free account.",
-      "     c) Open your favorite LLM (ChatGPT, Claud, Gemini, etc.).",
-      "     d) Open a blank google doc or word doc.",
-      "  ",
-    "Instructions",
-      "1) Decide on an site or app idea.",
-      "2) Create requirements doc",
-      "     a) On your blank doc, write a short, 2-4 sentence summary of your site or app.",
-      "     b) On the “Prompt Examples” page, copy the “Product Manager Prompt” and paste it in your blank doc.",
-      "     c) Fill in the missing information in the brackets [].",
-      "     d) Enter this prompt into your chatbot.",
-      "     e) Copy the result and paste it into your blank doc.", 
-      "     f) Review it and make any changes you want.",
-      "     g) Copy this new prompt, paste it into your chatbot, and press enter to create your requirements.",
-      "     h) Copy the resulting requirements list and past it into your blank doc.",
-      "3) Create a development plan.",
-      "     a) Go to the “Prompt Examples” page, copy the “Software Developer Prompt” and paste it in your blank doc.",
-      "     b) Repeat the same steps in step 2, but this time fill in the requirements you just created.",
-      "     c) Enter this final result into your black doc.",
-      "4) Create your site or app using Replit.",
-      "     a) Open Repit, paste your final prompt in the chat window, and click “Start Building”.",
-      "     b) Approve the plan and wait for it to build your site or app. (1-5 minutes)",
-      "     c) Once complete, test your app in the preview page.",
-      "5) Troubleshoot",
-      "     a) If you recieve an error, copy the message and paste it in the chat window.",
-      "     b) Repeat this process untill the issue is fixed."
-
+      "1) Analyse CRM data for customer growth opportunities.",
+      "     a) Got to the 'CRM data' page.",
+      "     b) Click on the cadence_sales_data link to download it. (NOTE: In reality, always remove any PII)",
+      "     c) Open ChatGPT and select the Reasoning Model, 'o3',  (or the Data Analytics GPT)",
+      "     d) Attache the spreadsheet you downloaded.",
+      "     e) On the 'Prompt Examples' page, copy the 'Analysis Prompt', paste it into  ChatGPT and press enter.",
+      "     f) Review results.",
+      "2) Research customer using an ChatGPT.",
+      "     a) Open ChatGPT and select the 'o3' model and 'Deep Research' option if you have them.",
+      "     b) On the 'Prompt Examples' page, copy the 'Research Prompt', paste it ChatGPT, and press enter.",
+      "     c) Answer the clarifying questions.",
+      "     b) While you wait, move to step 3.",
+      "3) Craft outreach email.",
+      "     a) On the 'Prompt Examples' page, copy the 'Outreach Prompt', and paste it into a black doc.",
+      "     b) When step 2 is complete, copy the Outreach Recommendations section and paste it into your black doc too.",
+      "     c) Open ChatGPT and select the '4o' model.",
+      "     d) Copy and paste your full prompt from your black doc to ChatGPT and press enter."
     ],
     "notes": [
-      "- If asked to create a database, say “no”.",
-      "- If asked for an API Key, use the key found on the “API Key” page."
+
     ]
   },
   "appBuildersPage": {

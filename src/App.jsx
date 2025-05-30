@@ -2,8 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import AppBuilders from './pages/AppBuilders'; // Added AppBuilders import
-import ApiKeys from './pages/ApiKeys';
+import CrmData from './pages/CrmData';
 import PromptExamples from './pages/PromptExamples';
 import PresentationDeck from './pages/PresentationDeck';
 import Instructions from './pages/Instructions'; // Renamed from Notes
@@ -33,8 +32,7 @@ function App() {
         <main className="container">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/app-builders" element={<AppBuilders />} /> {/* Added AppBuilders route */}
-            <Route path="/api-keys" element={<ApiKeys />} />
+            <Route path="/crm-data" element={<CrmData />} />
             <Route path="/prompt-examples" element={<PromptExamples />} />
             <Route path="/presentation-deck" element={<PresentationDeck />} />
             <Route path="/instructions" element={<Instructions />} /> {/* Renamed from /notes */}

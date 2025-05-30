@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item logo-text">
-          Vibe Coding
+          AI Sales Tools
         </Link>
         <button
           className={`navbar-burger burger ${isMobileMenuOpen ? 'is-active' : ''}`}
@@ -33,8 +33,8 @@ const Navbar = () => {
           <Link to="/" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Home
           </Link>
-          <Link to="/app-builders" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
-            App Builders
+          <Link to="/crm-data" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
+            CRM Data
           </Link>
           <Link to="/instructions" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Instructions
@@ -44,9 +44,6 @@ const Navbar = () => {
           </Link>
           <Link to="/presentation-deck" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Presentation Deck
-          </Link>
-          <Link to="/api-keys" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
-            API Keys
           </Link>
         </div>
         <div className="navbar-end">
