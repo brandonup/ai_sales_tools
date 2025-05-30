@@ -32,25 +32,25 @@
     "title": "Instructions",
     "instructions": [
       "1) Analyse CRM data for customer growth opportunities.",
-      "     a) Got to the 'CRM data' page.",
-      "     b) Click on the cadence_sales_data link to download it. (NOTE: In reality, always remove any PII)",
+      "     a) Go to the 'CRM data' page.",
+      "     b) Click on the cadence_sales_data link to download it. (NOTE: In practice, always remove any PII)",
       "     c) Open ChatGPT and select the Reasoning Model, 'o3',  (or the Data Analytics GPT)",
-      "     d) Attache the spreadsheet you downloaded.",
-      "     e) On the 'Prompt Examples' page, copy the 'Analysis Prompt', paste it into  ChatGPT and press enter.",
+      "     d) Attach the spreadsheet you downloaded.",
+      "     e) On the 'Prompt Examples' page, copy the 'Analysis Prompt', paste it into  ChatGPT and press Enter.",
       "     f) Review results.",
-      "2) Research customer using an ChatGPT.",
+      "2) Research customer using ChatGPT.",
       "     a) Open ChatGPT and select the 'o3' model and 'Deep Research' option if you have them.",
-      "     b) On the 'Prompt Examples' page, copy the 'Research Prompt', paste it ChatGPT, and press enter.",
+      "     b) On the 'Prompt Examples' page, copy the 'Research Prompt', paste it in ChatGPT, and press Enter.",
       "     c) Answer the clarifying questions.",
       "     b) While you wait, move to step 3.",
       "3) Craft outreach email.",
-      "     a) On the 'Prompt Examples' page, copy the 'Outreach Prompt', and paste it into a black doc.",
-      "     b) When step 2 is complete, copy the Outreach Recommendations section and paste it into your black doc too.",
+      "     a) On the 'Prompt Examples' page, copy the 'Outreach Prompt', and paste it into a blank doc.",
+      "     b) When step 2 is complete, copy the Outreach Recommendations section and paste it into your blank doc too.",
       "     c) Open ChatGPT and select the '4o' model.",
-      "     d) Copy and paste your full prompt from your black doc to ChatGPT and press enter."
+      "     d) Copy and paste your full prompt from your blank doc to ChatGPT and press enter."
     ],
     "notes": [
-
+      "In practice, ALWAYS remove any PII from your dataset before attaching it to an LLM."
     ]
   },
   "appBuildersPage": {
