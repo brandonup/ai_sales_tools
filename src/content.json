@@ -1,0 +1,86 @@
+{
+  "home": {
+    "welcomeText": "Vibe Coding: Building Sites and Apps using Low-Code AI App Builders",
+    "description": "A hands-on workshop to help you quickly build and deploy AI-powered applications without extensive coding."
+  },
+  "apiKeys": [
+    {
+      "id": "openai-key",
+      "label": "OpenAI API Key",
+      "content": "https://docs.google.com/document/d/1mo6R19So2MT2twEGp43MAqVvBn6mh_-vQgL8i9fBVNU/edit?usp=sharingß"
+    }
+  ],
+  "promptExamples": [
+    {
+      "id": "system-prompt-1",
+      "label": "Product Manager Prompt",
+      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Product Manager.\nGoal: Create a simple and functional site or web app.  \nTask: Using the description below, create a set of requirements my coding assistant can use to create this web app. Keep the app as simple as possible while still achieving our goal. \n\nDescription: \n[A short description of the site including functionality, fields, and any other requirements]"
+    },
+    {
+      "id": "system-prompt-2",
+      "label": "Software Developer Prompt",
+      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Software Developer\nGoal: Create a simple and functional site or web app.\nTask: Create a web app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. \n\nRequirements:\n[Paste requirements here]"
+    }
+  ],
+  "deckUrl": "https://docs.google.com/presentation/d/1ERS1h2rPKux4oOpTuCKhk0n0m5Luyryw9ar1ZnIoTak/edit?usp=sharing",
+  "instructionsPage": {
+    "title": "Instructions",
+    "instructions": [
+      "Setup",
+      "     a) Go to www.replit.com",
+      "     b) Create a free account.",
+      "     c) Open your favorite LLM (ChatGPT, Claud, Gemini, etc.).",
+      "     d) Open a blank google doc or word doc.",
+      "  ",
+    "Instructions",
+      "1) Decide on an site or app idea.",
+      "2) Create requirements doc",
+      "     a) On your blank doc, write a short, 2-4 sentence summary of your site or app.",
+      "     b) On the “Prompt Examples” page, copy the “Product Manager Prompt” and paste it in your blank doc.",
+      "     c) Fill in the missing information in the brackets [].",
+      "     d) Enter this prompt into your chatbot.",
+      "     e) Copy the result and paste it into your blank doc.", 
+      "     f) Review it and make any changes you want.",
+      "     g) Copy this new prompt, paste it into your chatbot, and press enter to create your requirements.",
+      "     h) Copy the resulting requirements list and past it into your blank doc.",
+      "3) Create a development plan.",
+      "     a) Go to the “Prompt Examples” page, copy the “Software Developer Prompt” and paste it in your blank doc.",
+      "     b) Repeat the same steps in step 2, but this time fill in the requirements you just created.",
+      "     c) Enter this final result into your black doc.",
+      "4) Create your site or app using Replit.",
+      "     a) Open Repit, paste your final prompt in the chat window, and click “Start Building”.",
+      "     b) Approve the plan and wait for it to build your site or app. (1-5 minutes)",
+      "     c) Once complete, test your app in the preview page.",
+      "5) Troubleshoot",
+      "     a) If you recieve an error, copy the message and paste it in the chat window.",
+      "     b) Repeat this process untill the issue is fixed."
+
+    ],
+    "notes": [
+      "- If asked to create a database, say “no”.",
+      "- If asked for an API Key, use the key found on the “API Key” page."
+    ]
+  },
+  "appBuildersPage": {
+    "title": "App Builders",
+    "introText": "Here are some useful AI App Builders:",
+    "builders": [
+      {
+        "name": "Replit",
+        "url": "https://replit.com/"
+      },
+      {
+        "name": "Lovable",
+        "url": "https://lovable.dev/"
+      },
+      {
+        "name": "Bolt",
+        "url": "https://bolt.new/"
+      },
+      {
+        "name": "Cursor",
+        "url": "https://www.cursor.com/en"
+      }
+    ]
+  }
+}
